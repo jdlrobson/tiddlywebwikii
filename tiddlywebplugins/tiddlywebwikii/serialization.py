@@ -54,9 +54,9 @@ class Serialization(WikiSerialization):
         tag = "<!--POST-SCRIPT-END-->"
         wiki = wiki.replace(tag, '''
         %(config)s
-        <script type="text/javascript" src="%(host)s/bags/lib/tiddlers/jquery.js"></script>
-        <script type="text/javascript" src="%(host)s/bags/lib/tiddlers/jQuery.twStylesheet.js"></script>
-        <script type="text/javascript" src="%(host)s/bags/lib/tiddlers/custom_twcore.js"></script>
+        <script type="text/javascript" src="%(host)s/bags/common/tiddlers/jquery.js"></script>
+        <script type="text/javascript" src="%(host)s/bags/common/tiddlers/jQuery.twStylesheet.js"></script>
+        <script type="text/javascript" src="%(host)s/bags/common/tiddlers/custom_twcore.js"></script>
         %(tag)s
         ''' % {"tag": tag, "config": self._get_config(), "host": server_base_url(self.environ)})
         wiki = unicode(wiki, 'utf-8')
