@@ -1,0 +1,19 @@
+TIDDLYWEBWIKII (TIDDLYWEBWIKI 2)
+################################################
+ABOUT:
+#######
+This is an experimental project to provide a different more appropriate html file for an online version of TiddlyWiki on TiddlyWeb.
+This project also exists as a fork of TiddlyWebWiki at - https://github.com/jdlrobson/tiddlywebwiki/compare/tiddlywebwikibuild
+
+TO USE:
+#######
+Run
+
+	make dev
+	cd dev_instance && twanager server
+
+Navigate to http://0.0.0.0:8080/bags/common/tiddlers.wikii and edit away!
+
+BACKGROUND:
+###########
+It takes a custom version of tiddlywebwiki generated via https://github.com/tiddlyweb/tiddlywiki/compare/custombuild which makes use of custom versions of 3 of the TiddlyWebWiki plugins that current live here - https://github.com/jdlrobson/tiddlywebwikiclient/compare/tiddlywebwikibuild
