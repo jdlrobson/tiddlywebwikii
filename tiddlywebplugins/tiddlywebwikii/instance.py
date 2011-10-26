@@ -10,7 +10,7 @@ instance_config = {
 }
 
 store_contents['common'] = [
-    'http://jonrobson.me.uk/tiddlywebwiki/index.recipe'
+ 'https://raw.github.com/tiddlyweb/tiddlywiki/custombuild/twebwiki-release/latest/index.recipe'
 ]
 
 store_structure = {

@@ -1,6 +1,6 @@
 tiddlywiki:
 	mkdir tiddlywebplugins/tiddlywebwikii/resources || true
-	wget http://jonrobson.me.uk/tiddlywebwiki/tiddlywiki.html -O tiddlywebplugins/tiddlywebwikii/resources/empty.html
+	wget https://raw.github.com/tiddlyweb/tiddlywiki/custombuild/twebwiki-release/latest/tiddlywiki.html -O tiddlywebplugins/tiddlywebwikii/resources/empty.html
 
 remotes: tiddlywiki
 	./cacher
