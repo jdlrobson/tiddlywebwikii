@@ -12,3 +12,6 @@ dev: remotes
 clean:
 	rm -rf tiddlywebplugins/tiddlywebwikii/resources
 	rm -rf dev_instance
+
+dist: remotes
+	python setup.py sdist
